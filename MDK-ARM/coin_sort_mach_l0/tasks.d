@@ -1,0 +1,17 @@
+coin_sort_mach_l0\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/tasks.c
+coin_sort_mach_l0\tasks.o: D:\app\dev_tools\mdk\ARM\ARMCC\Bin\..\include\stdlib.h
+coin_sort_mach_l0\tasks.o: D:\app\dev_tools\mdk\ARM\ARMCC\Bin\..\include\string.h
+coin_sort_mach_l0\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+coin_sort_mach_l0\tasks.o: D:\app\dev_tools\mdk\ARM\ARMCC\Bin\..\include\stddef.h
+coin_sort_mach_l0\tasks.o: D:\app\dev_tools\mdk\ARM\ARMCC\Bin\..\include\stdint.h
+coin_sort_mach_l0\tasks.o: ../Inc/FreeRTOSConfig.h
+coin_sort_mach_l0\tasks.o: ../Inc/mxconstants.h
+coin_sort_mach_l0\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+coin_sort_mach_l0\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+coin_sort_mach_l0\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+coin_sort_mach_l0\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM0/portmacro.h
+coin_sort_mach_l0\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+coin_sort_mach_l0\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+coin_sort_mach_l0\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
+coin_sort_mach_l0\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h
+coin_sort_mach_l0\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/StackMacros.h

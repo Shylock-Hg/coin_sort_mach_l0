@@ -1,0 +1,1 @@
+coin_sort_mach_l0\startup_stm32l073xx.o: startup_stm32l073xx.s
