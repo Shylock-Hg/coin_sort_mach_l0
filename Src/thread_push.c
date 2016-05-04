@@ -25,17 +25,18 @@ void thread_push_entry(void const * arg){
 				//SW0 closed
 			  SW0_Close();
 			  PUSH0_Forward();
-			  //HAL_GPIO_TogglePin(LD2_GPIO_Port,LD2_Pin);/*test ok! reached!*/
-			
+			  //HAL_GPIO_TogglePin(LD2_GPIO_Port,LD2_Pin);
+
 			  //wait to push back
 			  osSignalWait(signal_push_back,osWaitForever);
 				PUSH0_Back();
-				//HAL_GPIO_TogglePin(LD2_GPIO_Port,LD2_Pin);/*test ok! reached!*/
+				//HAL_GPIO_TogglePin(LD2_GPIO_Port,LD2_Pin);
 			
 			  //wait to sw open
 				osSignalWait(signal_sw_open,osWaitForever);
 				SW0_Open();
-        //HAL_GPIO_TogglePin(LD2_GPIO_Port,LD2_Pin);/*test ok! reached!*/
+        //HAL_GPIO_TogglePin(LD2_GPIO_Port,LD2_Pin);
+
 				break;
 
 			case GPIO_PIN_1:

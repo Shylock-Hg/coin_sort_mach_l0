@@ -4,10 +4,10 @@
 
 /**
 * @brief def pwm priority
-* @note  tim clock 2.097MHz,  10ms  20970  10485
+* @note  tim clock 2.097MHz
 */
-#define PWM_Period 20970
-#define PWM_Pulse  10480
+#define PWM_Period 418
+#define PWM_Pulse  209
 
 #define MesQ_Size 10
 
@@ -17,8 +17,8 @@
 /**
 * @note SW_PWM <= PUSH_PWM
 */
-#define MAX_SW0_PWM_CNT   900
-#define MAX_PUSH0_PWM_CNT 5000
+#define MAX_SW0_PWM_CNT   450
+#define MAX_PUSH0_PWM_CNT 4988
 
 #define MAX_SW1_PWM_CNT   900
 #define MAX_PUSH1_PWM_CNT 1000

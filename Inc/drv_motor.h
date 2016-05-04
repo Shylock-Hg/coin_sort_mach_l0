@@ -22,13 +22,13 @@
 */
 #define SW0_Close() do{\
 	HAL_GPIO_WritePin(GPIOB,GPIO_PIN_0,GPIO_PIN_RESET);\
-	HAL_GPIO_WritePin(GPIOA,dir0_Pin,GPIO_PIN_SET);\
+	HAL_GPIO_WritePin(GPIOA,dir0_Pin,GPIO_PIN_RESET);\
 	HAL_TIM_PWM_Start_IT(&htim2,TIM_CHANNEL_1);\
 }while(0)
 
 #define SW0_Open() do{\
 	HAL_GPIO_WritePin(GPIOB,GPIO_PIN_0,GPIO_PIN_RESET);\
-	HAL_GPIO_WritePin(GPIOA,dir0_Pin,GPIO_PIN_RESET);\
+	HAL_GPIO_WritePin(GPIOA,dir0_Pin,GPIO_PIN_SET);\
 	HAL_TIM_PWM_Start_IT(&htim2,TIM_CHANNEL_1);\
 }while(0)
 
@@ -66,13 +66,13 @@
 */
 #define SW1_Close() do{\
 	HAL_GPIO_WritePin(GPIOB,GPIO_PIN_2,GPIO_PIN_RESET);\
-	HAL_GPIO_WritePin(GPIOA,dir2_Pin,GPIO_PIN_SET);\
+	HAL_GPIO_WritePin(GPIOA,dir2_Pin,GPIO_PIN_RESET);\
 	HAL_TIM_PWM_Start_IT(&htim3,TIM_CHANNEL_1);\
 }while(0)
 
 #define SW1_Open() do{\
 	HAL_GPIO_WritePin(GPIOB,GPIO_PIN_2,GPIO_PIN_RESET);\
-	HAL_GPIO_WritePin(GPIOA,dir2_Pin,GPIO_PIN_RESET);\
+	HAL_GPIO_WritePin(GPIOA,dir2_Pin,GPIO_PIN_SET);\
 	HAL_TIM_PWM_Start_IT(&htim3,TIM_CHANNEL_1);\
 }while(0)
 
@@ -105,13 +105,13 @@
 */
 #define SW2_Close() do{\
 	HAL_GPIO_WritePin(GPIOB,GPIO_PIN_4,GPIO_PIN_RESET);\
-	HAL_GPIO_WritePin(GPIOA,dir4_Pin,GPIO_PIN_SET);\
+	HAL_GPIO_WritePin(GPIOA,dir4_Pin,GPIO_PIN_RESET);\
 	HAL_TIM_PWM_Start_IT(&htim21,TIM_CHANNEL_1);\
 }while(0)
 
 #define SW2_Open() do{\
 	HAL_GPIO_WritePin(GPIOB,GPIO_PIN_4,GPIO_PIN_RESET);\
-	HAL_GPIO_WritePin(GPIOA,dir4_Pin,GPIO_PIN_RESET);\
+	HAL_GPIO_WritePin(GPIOA,dir4_Pin,GPIO_PIN_SET);\
 	HAL_TIM_PWM_Start_IT(&htim21,TIM_CHANNEL_1);\
 }while(0)
 

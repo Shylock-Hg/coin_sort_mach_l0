@@ -82,7 +82,7 @@ int main(void)
   MX_TIM21_Init();
 
   /* USER CODE BEGIN 2 */
-	HAL_TIM_PWM_Start(&htim2,TIM_CHANNEL_1);
+  HAL_GPIO_WritePin(GPIOA,dir1_Pin,GPIO_PIN_RESET);
   /* USER CODE END 2 */
 
   /* Call init function for freertos objects (in freertos.c) */
