@@ -17,14 +17,17 @@
 /**
 * @note SW_PWM <= PUSH_PWM
 */
-#define MAX_SW0_PWM_CNT   450
-#define MAX_PUSH0_PWM_CNT 4988
+//10
+#define MAX_SW0_PWM_CNT   267
+#define MAX_PUSH0_PWM_CNT 8760
 
-#define MAX_SW1_PWM_CNT   900
-#define MAX_PUSH1_PWM_CNT 1000
+//5
+#define MAX_SW1_PWM_CNT   267
+#define MAX_PUSH1_PWM_CNT 11205
 
-#define MAX_SW2_PWM_CNT   900
-#define MAX_PUSH2_PWM_CNT 1000
+//1
+#define MAX_SW2_PWM_CNT   267
+#define MAX_PUSH2_PWM_CNT 8556
 /**********************signal def***********************/
 typedef enum {signal_push_back, //push back start
 							signal_sw_open    //sw open start
