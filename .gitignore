@@ -30,3 +30,5 @@
 
 # Debug files
 *.dSYM/
+
+**/coin_sort_mach_l0
